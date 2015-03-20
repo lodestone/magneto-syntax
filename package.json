@@ -1,7 +1,7 @@
 {
   "name": "magneto-syntax",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A very magnetic syntax theme",
   "repository": "https://github.com/lodestone/magneto-syntax",
   "license": "MIT",
