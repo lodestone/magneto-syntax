@@ -1,4 +1,4 @@
-## 0.4.0 Tweaky Release
+## 0.5.0 Tweaky Release
 
 * Adjusted some html colors so they are more awesomer.
 * Tweaked colos slightly, still very magnetic
