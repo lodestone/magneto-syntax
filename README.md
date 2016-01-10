@@ -1,6 +1,6 @@
 # magneto-syntax theme
 ## for [Atom Editor](https://github.com/atom/atom/)
 
-A pleasing, almost magnetically attractive theme for your Atom Editor.
+A pleasing, almost magnetically attractive dark syntax theme for your Atom Editor. Full of greens, blues, and a dash of purple.
 
-![Magneto](http://nx.is/142Kw+.png)
+![Magneto Syntax](http://z.nx.is/JHE.png)
