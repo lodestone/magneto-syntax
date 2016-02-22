@@ -1,3 +1,7 @@
+## 0.6.0 Markdown Release
+
+* Initial support for language-markdown
+
 ## 0.5.0 Tweaky Release
 
 * Adjusted some html colors so they are more awesomer.
