@@ -12,7 +12,7 @@
 * Not a checkbox.
 + This is a plus.
 - This is a task. @todo
-x This is a minus @done
+x This is an x @done
 
 <!-- FIXME: -->
 <!-- TODO: -->
@@ -39,16 +39,20 @@ And here comes a block quote:
 ```
 
 ## Bold
+
 **This is some bold text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.**
 
 ### Italic
 
 ***This is some bold and italic text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.***
 
+_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum_
+
+*ITALICS*
 
 ## Heading 2
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Lorem** _ipsum_ dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <!-- TODO: Rewrite this paragraph. -->
 
@@ -102,8 +106,8 @@ Link: <http://www.google.com>
 Link: [Google](http://google.com/)
 
 <div class="hooplah">
-  <h1>Regular HTML Formatting</h1>
-  <p>This is a paragraph.</p>
+  <h1>Regular <strong>HTML</strong> Formatting</h1>
+  <p>This is a <e>paragraph</e>.</p>
   <a href="http://news.ycombinator.com">News</a>
 </div>
 
