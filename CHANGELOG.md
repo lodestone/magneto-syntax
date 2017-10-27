@@ -1,3 +1,7 @@
+## 0.7.0
+
+* Upgrade selectors for latest Atom releases
+
 ## 0.6.0 Markdown Release
 
 * Initial support for language-markdown

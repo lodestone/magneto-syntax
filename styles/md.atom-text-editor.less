@@ -7,7 +7,7 @@
 // differently from the default markup elements defined above. All styles are
 // empty, primarily to give you an idea of what's possible.
 
-.heading {
+.syntax--markup .syntax--heading {
   color: @plum;
   > .punctuation {}
   &.empty {
@@ -15,202 +15,202 @@
   }
 }
 
-.heading-2 {
+.syntax--markup .syntax--heading-2 {
   color: lighten(@plum, 10%);
 }
 
 
-.heading-3 {
+.syntax--markup .syntax--heading-3 {
   color: lighten(@plum, 20%);
 }
 
 
-.heading-4 {
+.syntax-markup .syntax--heading-4 {
   color: lighten(@plum, 30%);
 }
 
 
-.heading-5 {
+.syntax--markup .syntax--heading-5 {
   color: lighten(@plum, 40%);
 }
 
-&.hr {
+.syntax--markup &.syntax--hr {
   color: @bright-blue;
 }
 
-.quote.markup.md {
+.sytanx--markup .syntax--quote.syntax--markup.syntax--md {
   font-style: italic;
   color: @light-gray;
 }
 
 
-&.punctuation.md {
+.syntax--markup &.syntax--punctuation.syntax--md {
   // color: lighten(@light-gray,30%);
 }
 
-&.link {
+.syntax--markup &.syntax--link {
   color: @purple;
-  .string {
+  .syntax--string {
     color: @yellow-green;
   }
-  &.text {}
-  &.destination {
-    .uri {}
+  &.syntax--text {}
+  &.syntax--destination {
+    .syntax--uri {}
     text-decoration: underline;
   }
-  &.label {}
-  &.title {
+  &.syntax--label {}
+  &.syntax--title {
     font-style: italic;
   }
-  &.auto {
-    &.email {}
+  &.syntax--auto {
+    &.syntax--email {}
   }
-  &.reference {
-    &.abbreviation {}
+  &.syntax--reference {
+    &.syntax--abbreviation {}
   }
-  &.footnote {
-    &.reference {}
-    &.definition {}
+  &.syntax--footnote {
+    &.syntax--reference {}
+    &.syntax--definition {}
   }
 }
 
-&.gfm {
-  &.reference {
-    .mention {}
-    .issue {}
-    .user {}
-    .repository {}
-    .sha {}
+&.syntax--gfm {
+  &.syntax--reference {
+    .syntax--mention {}
+    .syntax--issue {}
+    .syntax--user {}
+    .syntax--repository {}
+    .syntax--sha {}
 
-    &.class {}
-    &.method {
-      &.instance {}
-      &.class {}
+    &.syntax--class {}
+    &.syntax--method {
+      &.syntax--instance {}
+      &.syntax--class {}
     }
   }
 
-  &.emoji {}
+  &.syntax--emoji {}
 }
 
-&.constant {
-  &.entity {}
-  &.escape {}
-  &.line-break {}
+&.syntax--constant {
+  &.syntax--entity {}
+  &.syntax--escape {}
+  &.syntax--line-break {}
 }
 
-&.reference {
-  &.class {}
-  &.link {}
+&.syntax--reference {
+  &.syntax--class {}
+  &.syntax--link {}
 }
 
-&.list {
+&.syntax--list {
 
-  > .punctuation {
-    &.checkbox {}
+  > .syntax--punctuation {
+    &.syntax--checkbox {}
   }
 
-  &.unordered {
+  &.syntax--unordered {
     color: @light-gray;
   }
 
-  &.ordered {
+  &.syntax--ordered {
     color: @light-gray;
   }
 
-  &.empty {}
+  &.syntax--empty {}
 
-  &.task {
-    &.completed {
+  &.syntax--task {
+    &.syntax--completed {
       // text-decoration: line-through;
     }
   }
 
-  &.definition {}
+  &.syntax--definition {}
 }
 
-&.code {
-  &:not(.fenced) {
+&.syntax--code {
+  &:not(.syntax--fenced) {
     background: fade(@gray, 10%)
   }
 
-  &.fenced {
-    .punctuation.md {
+  &.syntax--fenced {
+    .syntax--punctuation.syntax--md {
       color: desaturate(@green, 50%);
       font-style: italic;
     }
-    &.info {}
+    &.syntax--info {}
   }
 
-  &.raw {}
+  &.syntax--raw {}
 }
 
-&.constant {
-  &.language {
+&.syntax--constant {
+  &.syntax--language {
     color: @orange;
     font-style: italic;
   }
 }
 
-&.emphasis {
-  &:not(.strong) {}
+&.syntax--emphasis {
+  &:not(.syntax--strong) {}
 
-  &:not(.strong) .strong {
+  &:not(.syntax--strong) .syntax--strong {
     font-style: italic;
   }
 }
 
-&.strong.bold.markup {
+&.syntax--strong.syntax--bold.syntax--markup {
   color: fade(@very-light-gray, 80%);
 }
 
-&.language.constant.md {
+&.syntax--language.syntax--constant.syntax--md {
   color: @purple;
 }
 
 
-&.italic.markup {
+&.syntax--italic.syntax--markup {
   color: fade(@very-light-gray, 80%);
   font-style: italic;
 }
 
-.bold.markup {
+.syntax--bold.syntax--markup {
   color: fade(@very-light-gray, 80%);
   font-style: normal;
 }
 
-&.bold.italic.markup {
+&.syntax--bold.syntax--italic.syntax--markup {
   color: fade(@very-light-gray, 80%);
   font-style: italic !important;
 }
 
-&.table {
-  > .punctuation {
-    &.alignment {}
+&.syntax--table {
+  > .syntax--punctuation {
+    &.syntax--alignment {}
   }
 }
 
-&.strike {}
+&.syntax--strike {}
 
-&.critic {
-  &.addition {
+&.syntax--critic {
+  &.syntax--addition {
 
 }
-  &.deletion {}
-  &.comment {}
-  &.highlight {}
-  &.substitution {}
+  &.syntax--deletion {}
+  &.syntax--comment {}
+  &.syntax--highlight {}
+  &.syntax--substitution {}
 }
 
-&.special-attributes {}
+&.syntax--special-attributes {}
 
-&.attribute {
-  &.special {
-    &.other {}
-    &.id {}
-    &.class {}
+&.syntax--attribute {
+  &.syntax--special {
+    &.syntax--other {}
+    &.syntax--id {}
+    &.syntax--class {}
   }
-  .value {
-    &.string {}
-    &.storage {}
+  .syntax--value {
+    &.syntax--string {}
+    &.syntax--storage {}
   }
 }
