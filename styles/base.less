@@ -1,5 +1,11 @@
 @import "syntax-variables";
 
+.editor.is-focused {
+  .line.cursor-line {
+    background: @very-dark-gray;
+  }
+}
+
 atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
@@ -49,7 +55,11 @@ atom-text-editor {
   .invisible {
     color: @syntax-text-color;
   }
-
+  
+  .invisible-character {
+    color: fade(@syntax-text-color, 10%);
+  }
+  
   .cursor {
     color: @syntax-cursor-color;
   }
