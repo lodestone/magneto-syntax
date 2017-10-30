@@ -1,7 +1,7 @@
 {
   "name": "magneto-syntax",
   "theme": "syntax",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "A very magnetic syntax theme: Green, purple, and blue.",
   "repository": "https://github.com/lodestone/magneto-syntax",
   "license": "MIT",
